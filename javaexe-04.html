@@ -1,0 +1,19 @@
+<html>
+<body>
+
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var Num = [4,1,8,3,9,12];
+document.getElementById("demo").innerHTML = Num;
+
+function myFunction() {
+ Num.sort(function(a, b){return a - b});
+  document.getElementById("demo").innerHTML = Num;
+}
+</script>
+</body>
+</html>
